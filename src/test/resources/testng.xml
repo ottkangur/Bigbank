@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Modal Suite">
+    <test name="Submit tests">
+        <classes>
+            <class name="SubmitWithAcceptableAmount" />
+            <class name="SubmitWithEmptyValue" />
+            <class name="SubmitWithSubValue" />
+            <class name="SubmitWithSuperValue" />
+        </classes>
+    </test>
+    <test name="Close tests">
+        <classes>
+            <class name="CloseModalWithX" />
+            <class name="CloseModalWithMisclick" />
+        </classes>
+    </test>
+</suite>

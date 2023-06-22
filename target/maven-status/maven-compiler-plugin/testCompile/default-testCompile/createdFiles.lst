@@ -1,0 +1,6 @@
+CloseModalWithX.class
+SubmitWithEmptyValue.class
+SubmitWithAcceptableAmount.class
+SubmitWithSuperValue.class
+SubmitWithSubValue.class
+CloseModalWithMisclick.class
